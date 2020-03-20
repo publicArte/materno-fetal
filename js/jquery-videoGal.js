@@ -1,7 +1,7 @@
 $(document).ready(function() {
    $('#videoss a').each(function() {
       var data = $(this).attr('data');
-      $(this).append('<img src="images/'+data+'.png" />');
+      $(this).append('<img src="images/'+data+'.jpg" />');
    });
 
    $('#videoss a').click(function() {
